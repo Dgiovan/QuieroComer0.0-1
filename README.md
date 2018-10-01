@@ -8,5 +8,6 @@ primeros avances
 ![screenshot_20180513-192223 2](https://user-images.githubusercontent.com/32046529/46311345-7a6caf00-c587-11e8-9cb8-316f0c9678bc.png)
 
 ###mapa
-https://github.com/Dgiovan/QuieroComer0.0-1/issues/3#issue-365611904
+![screenshot_20180513-192251 2](https://user-images.githubusercontent.com/32046529/46311603-5eb5d880-c588-11e8-8705-5f0c9e57dbd6.png)
+
 
