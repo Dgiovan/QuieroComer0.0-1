@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alichis.dvpgiomov.quierocomer.Menuseats"
+    android:background="@color/colorOrange"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+    <include layout="@layout/toolbarmenu"></include>
+   <GridLayout
+
+       android:columnCount="2"
+       android:rowCount="6"
+       android:alignmentMode="alignMargins"
+       android:columnOrderPreserved="false"
+       android:layout_weight="8"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:padding="14dp">
+      <!-- colum 1-->
+      <!-- row 1-->
+
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="10dp"
+
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:layout_margin="5dp"
+               android:background="@color/colorprueva"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/colortexto_prueva"
+                   android:textSize="18sp"
+                   android:text="@string/TXT_pizza"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/img_pizza"
+                   />
+
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="10dp"
+
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:layout_margin="5dp"
+               android:background="@color/colorprueva"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/colortexto_prueva"
+                   android:textSize="15sp"
+                   android:text="@string/TXT_hamburguer"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/img_burger"
+                   />
+
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="10dp"
+
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:layout_margin="5dp"
+               android:background="@color/colorprueva"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/colortexto_prueva"
+                   android:textSize="18sp"
+                   android:text="@string/TXT_tacos"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/img_taco"
+                   />
+
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="10dp"
+
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:layout_margin="5dp"
+               android:background="@color/colorprueva"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/colortexto_prueva"
+                   android:textSize="18sp"
+                   android:text="@string/TXT_chiken"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/img_roast_chicken"
+                   />
+
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="10dp"
+
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:layout_margin="5dp"
+               android:background="@color/colorprueva"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/colortexto_prueva"
+                   android:textSize="18sp"
+                   android:text="@string/TXT_fish"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/img_fish"
+                   />
+
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="10dp"
+
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:layout_margin="5dp"
+               android:background="@color/colorprueva"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/colortexto_prueva"
+                   android:textSize="18sp"
+                   android:text="@string/TXT_cofee"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/img_coffee"
+                   />
+
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="10dp"
+
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:layout_margin="5dp"
+               android:background="@color/colorprueva"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/colortexto_prueva"
+                   android:textSize="18sp"
+                   android:text="@string/TXT_iceCream"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/img_ice_cream"
+                   />
+
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="10dp"
+
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:layout_margin="5dp"
+               android:background="@color/colorprueva"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/colortexto_prueva"
+                   android:textSize="18sp"
+                   android:text="@string/TXT_soup"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/img_soup"
+                   />
+
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+
+   <!--    <android.support.v7.widget.CardView
+       android:layout_width="0dp"
+       android:layout_height="0dp"
+       android:layout_columnWeight="1"
+       android:layout_rowWeight="1"
+       android:layout_marginBottom="5dp"
+       android:layout_marginLeft="5dp"
+       android:layout_marginRight="5dp"
+       app:cardElevation="8dp"
+       app:cardCornerRadius="10dp"
+
+       >
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal|center_vertical"
+           android:layout_margin="5dp"
+           android:background="@color/colorprueva"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:textStyle="bold"
+               android:textColor="@color/colortexto_prueva"
+
+               android:textSize="18sp"
+               android:text="piza"/>
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/img_pizza"
+               />
+
+
+       </LinearLayout>
+
+   </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="10dp"
+
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:layout_margin="5dp"
+               android:background="@color/colorprueva"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/colortexto_prueva"
+
+                   android:textSize="18sp"
+                   android:text="piza"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/img_pizza"
+                   />
+
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="10dp"
+
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:layout_margin="5dp"
+               android:background="@color/colorprueva"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/colortexto_prueva"
+
+                   android:textSize="18sp"
+                   android:text="piza"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/img_pizza"
+                   />
+
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="10dp"
+
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:layout_margin="5dp"
+               android:background="@color/colorprueva"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/colortexto_prueva"
+
+                   android:textSize="18sp"
+                   android:text="piza"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/img_pizza"
+                   />
+
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="10dp"
+
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:layout_margin="5dp"
+               android:background="@color/colorprueva"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/colortexto_prueva"
+
+                   android:textSize="18sp"
+                   android:text="piza"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/img_pizza"
+                   />
+
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="10dp"
+
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:layout_margin="5dp"
+               android:background="@color/colorprueva"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/colortexto_prueva"
+
+                   android:textSize="18sp"
+                   android:text="piza"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/img_pizza"
+                   />
+
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="10dp"
+
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:layout_margin="5dp"
+               android:background="@color/colorprueva"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/colortexto_prueva"
+
+                   android:textSize="18sp"
+                   android:text="piza"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/img_pizza"
+                   />
+
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_columnWeight="1"
+           android:layout_rowWeight="1"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           app:cardElevation="8dp"
+           app:cardCornerRadius="10dp"
+
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:layout_margin="5dp"
+               android:background="@color/colorprueva"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/colortexto_prueva"
+
+                   android:textSize="18sp"
+                   android:text="piza"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/img_pizza"
+                   />
+
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>-->
+
+
+
+
+
+
+
+
+
+
+   </GridLayout>
+    
+
+
+
+
+</LinearLayout>

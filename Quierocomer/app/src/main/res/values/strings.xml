@@ -1,0 +1,17 @@
+<resources>
+    <!--Textos Relacionados con la aplicacion Toolbars, titulos, botones-->
+
+    <string name="app_name">Quiero comer</string>
+    <string name="TXTmessageone">Busquemos un buen lugar para comer</string>
+    <string name="TXTtoolbarmenu">Menu disponible </string>
+
+    <!--Textos para las imagenes del menu y comidas-->
+    <string name="TXT_pizza">Pizza</string>
+    <string name="TXT_chiken">Pollo</string>
+    <string name="TXT_hamburguer">Hamburguesa</string>
+    <string name="TXT_iceCream">Postres</string>
+    <string name="TXT_soup">Comida corrida</string>
+    <string name="TXT_tacos">Tacos</string>
+    <string name="TXT_cofee">Cafe y te </string>
+    <string name="TXT_fish">Pescado</string>
+</resources>
